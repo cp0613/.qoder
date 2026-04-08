@@ -1,0 +1,10 @@
+*
+!.gitignore
+!skills/
+!skills/**
+
+# https://github.com/anthropics/skills
+skills/docx
+skills/pdf
+skills/pptx
+skills/xlsx
