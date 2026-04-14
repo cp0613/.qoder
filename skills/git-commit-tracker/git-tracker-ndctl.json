@@ -1,0 +1,8 @@
+{
+  "alias": "ndctl",
+  "url": "https://github.com:pmem/ndctl.git",
+  "branch": "main",
+  "local_path": ".qoder/gitsrc/ndctl",
+  "last_commit": "8ad90e54f0ff4f7291e7f21d44d769d10f24e2b6",
+  "last_query_time": "2026-04-14T16:00:00+08:00"
+}
