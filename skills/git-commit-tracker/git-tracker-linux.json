@@ -1,0 +1,9 @@
+{
+  "alias": "linux",
+  "url": "https://github.com/torvalds/linux.git",
+  "branch": "master",
+  "paths": ["arch/riscv/"],
+  "local_path": ".qoder/gitsrc/linux",
+  "last_commit": "028ef9c96e96197026887c0f092424679298aae8",
+  "last_query_time": "2026-04-14T16:15:00+08:00"
+}

@@ -1,0 +1,13 @@
+{
+  "repos": {
+    "ndctl": {
+      "url": "https://github.com:pmem/ndctl.git",
+      "branch": "main"
+    },
+    "linux": {
+      "url": "https://github.com/torvalds/linux.git",
+      "branch": "master",
+      "paths": ["arch/riscv/"]
+    }
+  }
+}

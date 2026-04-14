@@ -1,0 +1,56 @@
+========== 查询时间: 2026-04-14 16:00:00 ==========
+分支: main
+范围: 首次查询（最近 50 条）
+新增提交: 50 条
+
+8ad90e5 ndctl: release v84
+d6f32b0 test/cxl-poison.sh: replace sysfs usage with cxl-cli cmds
+2d66520 util/sysfs: add hint for missing root privileges on sysfs access
+d20e70b util/sysfs: save and use errno properly in read and write paths
+066dede ndctl: add key cleanup after overwrite operation
+d80e7df test/cxl-topology.sh: test switch port target enumeration
+008faaf test/cxl-poison.sh: add test case for unaligned address translations
+8df9c8f daxctl: replace basename() usage with new path_basename()
+7dd774d Documentation: add docs for protocol and poison injection commands
+5d59686 cxl/list: add injectable errors in output
+9962b69 cxl: add poison injection/clear commands
+2dcec89 cxl: add inject-protocol-error command
+e328041 libcxl: add poison injection support
+2407f87 libcxl: add CXL protocol errors
+678a7fb libcxl: add debugfs path to CXL context
+b745a19 test/cxl-poison.sh: add support for ELC in poison test
+af1f814 test/cxl-elc.sh: add a new test for extended linear cache support
+09dbcf1 test/cxl-poison.sh: use the cxl_test auto region
+71e48a9 test/cxl-poison.sh: detect the correct elc sysfs attribute
+f643715 test/cxl-translate.sh: add new cxl-translate.sh unit test
+3b52991 test/pmem-ns: fully reset nfit_test in pmem-ns unit test
+ef92bfa cxl: add support for extended linear cache
+38f04b0 README.md: exclude unsupported distros from Repology badge
+4f7a1c6 ndctl: release v83
+b26e9ae cxl/list: remove libtracefs build dependency for --media-errors
+4c6e6c3 cxl: document 'cxl enable-port -m' behavior change
+b4caae2 test/dm.sh: use dm.sh as script name in cleanup error message
+b9695a3 test/cxl-poison.sh: test inject and clear poison by region offset
+c1e2e3c cxl: add helper function to verify port is in memdev hierarchy
+14246dd ndctl: fix user visible spelling errors
+2e44653 test/common: move err() function to top of file
+ea4cdc8 test/common: add double quotes to bash variables
+01c245f test/meson.build: add fwctl dependency needed for cxl-features.sh
+2153a80 README.md: update package requirements for the test environment
+30aca93 test/dax.sh: adjust trace parsing of fault results
+e4a2269 test/sub-section.sh: use built ndctl program in unit test
+4259c72 build: update meson feature deprecation warnings
+74b9e41 ndctl: release v82
+d37d773 README.md: update the kernel config requirement for unit tests
+95906f0 test/meson.build: use the default POSIX locale for unit tests
+d014bb4 test/cxl-features.sh: add test for CXL features device
+2caaa1a cxl: add features.h from kernel UAPI for CXL Features support
+3aabcc0 libcxl: enumerate major/minor of FWCTL char device
+a930563 libcxl: add cxl_bus_get_by_provider()
+55331fe cxl/test: skip, don't fail, when kernel tracing is not enabled
+7aa6924 test/cxl-xor-region.sh: remove redundant waiting
+9fa2721 cxl/test: set the $CXL environment variable in meson.build
+069f429 test/cxl-topology.sh: change assumption on host bridge validation
+92d5203 ndctl: release v81
+d49ba4b ndctl/namespace: protect against under|over-flow w bad param.align
+
